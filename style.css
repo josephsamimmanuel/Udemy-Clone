@@ -117,13 +117,13 @@ color: red;
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 10px;
-    
 }
 .topics__container p{
-    border: solid 1x black;
+    
     padding: 10px;
     flex-grow: 1;
     flex-basis: 25%;
+    border: solid 2px black;
 }
 .footer-one{
     display: flex;
