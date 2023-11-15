@@ -76,6 +76,14 @@ color: red;
     color: white;
     padding: 10px;
     border-radius: 30px;
+    border: solid 1px purple;
+}
+.catagories p:hover{
+    transition: 1s;
+    background-color: transparent;
+    color: purple;
+    cursor: pointer;
+    border: solid 1px purple;
 }
 .sale-image{
     position: relative;
@@ -91,6 +99,20 @@ color: red;
     padding: 20px;
     background-color: white;
     width: 450px;
+    animation-name: zoom;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 .recommended{
     padding: 10px;
