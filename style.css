@@ -20,7 +20,7 @@ body{
 }
 .navbar__s1__title
 {
-color: purple;
+color: #BA00CA;
 }
 .navbar__s2{
     padding: 10px;
@@ -72,18 +72,18 @@ color: purple;
     border-bottom: solid 1px black;
 }
 .catagories p{
-    background-color: purple;
+    background-color: #BA00CA;
     color: white;
     padding: 10px;
     border-radius: 30px;
-    border: solid 1px purple;
+    border: solid 1px #BA00CA;
 }
 .catagories p:hover{
     transition: 1s;
     background-color: transparent;
-    color: purple;
+    color: #BA00CA;
     cursor: pointer;
-    border: solid 1px purple;
+    border: solid 1px #BA00CA;
 }
 .sale-image{
     position: relative;
